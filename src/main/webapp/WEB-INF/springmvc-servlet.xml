@@ -7,4 +7,7 @@
 
     <mvc:annotation-driven/>
 
+    <mvc:interceptors>
+        <bean class="com.interceptor.RestFulInterceptor" />
+    </mvc:interceptors>
 </beans>
